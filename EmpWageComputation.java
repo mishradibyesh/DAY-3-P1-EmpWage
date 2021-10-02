@@ -11,7 +11,7 @@ static final int  Parttime=2;
 			// putting a condition to check for maximum hour and day allowed
                         while(TotalWorkingHour<=100 && day<=20)
                         {
-                            int Random=(int)Math.floor(Math.random()*10)%3; //creating random
+                            int Random=(int)Math.floor(Math.random()*10)%3; //creating a random number using random method
                             int salary=0;
                             switch (Random)   // checking presence with the help of if condition
                         {	
